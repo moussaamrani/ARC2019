@@ -1,0 +1,46 @@
+\documentclass[a4paper]{article}
+
+\usepackage{url}
+\usepackage{paralist}
+\usepackage{todonotes}
+\usepackage{colortbl}
+\usepackage[style=numeric,maxnames=8,natbib=true]{biblatex}
+\bibliography{biblio}
+%\newcommand{\ed}[1]{\textsf{\textcolor{red}{[#1]}}}
+%\newcommand{\remove}[1]{}
+
+\newcommand{\myitem}[1]{\vspace*{0.07in}\noindent\textbf{#1}}
+
+%\usepackage[colorlinks=true,linkcolor=black,urlcolor=blue,anchorcolor=black,citecolor=black,backref=none]{hyperref}
+%\usepackage[usenames,dvipsnames]{color}
+%% Disable backref and make \href colors more decent:
+%\definecolor{MyDarkBlue}{rgb}{0,0.1,0.7}
+%\hypersetup{pdfborder={0 0 0},colorlinks,breaklinks=true,urlcolor={MyDarkBlue},citecolor={MyDarkBlue},linkcolor={MyDarkBlue} }
+
+\newcommand\patrick[1]{\medskip\todo[color=blue!40,inline]{TODO (Patrick): #1}}
+
+\title{ARC Project 13/18-054 :\\ Software Defined Networks\\
+           Scientific report for years 2016 and 2017}
+
+\author{P. Heymans}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+This report compiles the main results of the ARC project entitled \emph{Modeling, Design and Optimization of Software Defined Networks} (grant 13/18-054)
+between January 2016 and December 2017. This project involves the
+following principal investigators: Prof. O. Bonaventure (UCL), Prof. Y. Deville (UCL), Prof. R. Jungers (UCL) and Prof. P. Heymans (UNamur). The present report focuses of the results of the UNamur team. 
+
+%\section{Administrative Information}
+
+%\input{parts/administrative}
+
+\section{Scientific Results}
+\input{parts/scientific}
+%\bibliographystyle{acm}
+%\bibliography{../arcsdn.bib}
+
+\end{document}
